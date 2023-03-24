@@ -20,7 +20,7 @@ public class Console {
 		System.out.print("Digite o seu sálario: ");
 		float salario = entrada.nextFloat();
 		
-		System.out.printf("%s recebe R$ %.2f.", nome, salario);
+		System.out.printf("\n%s recebe R$ %.2f.", nome, salario);
 		
 		entrada.close();
 	}
