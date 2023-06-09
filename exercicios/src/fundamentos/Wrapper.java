@@ -16,6 +16,9 @@ public class Wrapper {
 		Float f = 123.49F;
 		System.out.println(f);
 		
+		Double d = 1234.5678;
+		System.out.println(d);
+		
 		Boolean bo = Boolean.parseBoolean("TRUE");
 		System.out.println(bo);
 		System.out.println(bo.toString().toUpperCase());
