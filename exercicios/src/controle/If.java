@@ -16,6 +16,14 @@ public class If {
 			System.out.println("Parabéns!");
 		}
 		
+		if (media < 7 && media >= 4.5) {
+			System.out.println("Recuperação");
+		}
+		
+		if (media < 4.5 && media >= 0) {
+			System.out.println("Reprovado");
+		}
+		
 		entrada.close();
 	}
 }
