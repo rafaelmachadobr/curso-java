@@ -19,5 +19,6 @@ public class TipoStringEquals {
 		System.out.println("2".equals(s2.trim()));
 		
 		entrada.close();
+		
 	}
 }
