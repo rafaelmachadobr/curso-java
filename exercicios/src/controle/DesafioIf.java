@@ -10,7 +10,6 @@ public class DesafioIf {
 			System.out.println("Quadro de Honra!");
 			System.out.println("Você é fera!!!");
 		}
-		
-		System.out.println("ola");
+
 	}
 }
