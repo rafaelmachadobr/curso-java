@@ -6,11 +6,11 @@ public class DiaDaSemana {
 	
 	public static void main(String[] args) {
 		
-		Scanner scanner = new Scanner(System.in);
+		Scanner entrada = new Scanner(System.in);
 				
 		System.out.println("Digite o nome do dia: ");
 		
-		String dia = scanner.next();
+		String dia = entrada.next();
 		
 		if (dia.equalsIgnoreCase("domingo")) {
 			System.out.println(1);
@@ -30,5 +30,6 @@ public class DiaDaSemana {
 			System.out.println("Dia inválido!");
 		}
 		
+		entrada.close();
 	}
 }
