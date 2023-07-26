@@ -1,6 +1,6 @@
 package classe;
 
-public class TesteProduto {
+public class ProdutoTeste {
 
 	public static void main(String[] args) {
 		
