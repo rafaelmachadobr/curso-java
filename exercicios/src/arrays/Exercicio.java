@@ -22,7 +22,8 @@ public class Exercicio {
 		
 		System.out.println(totalAlunoA / notasAlunoA.length);
 		
-		double[] notasAlunoB = { 6.9, 8.9, 5.5, 10 };
+		final double notaArmazenada = 5.9;
+		double[] notasAlunoB = { 6.9, 8.9, notaArmazenada, 10 };
 		
 		double totalAlunoB = 0;
 		for (int i = 0; i < notasAlunoB.length; i++) {
